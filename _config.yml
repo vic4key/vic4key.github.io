@@ -3,7 +3,7 @@
 permalink: /:categories/:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: pygments
+highlighter: rouge # pygments
 
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
@@ -91,7 +91,7 @@ JB :
       appid : 1075787649203155
       num_posts: 5
       width: 580
-      colorscheme: dark
+      colorscheme: dark # light
   # disqus :
   #   short_name : jekyllbootstrap
   # livefyre :
